@@ -53,12 +53,13 @@ nav {
   color: pink;
 }
 
+
 /* section headings */
 h2 {
   font-family: 'Bungee', sans-serif;
   font-size: 2em;
   max-width: 80%;
-  margin-left: .4em;
+  margin-left: 1.15rem;
 }
 hr {
   border: none;
@@ -69,7 +70,41 @@ hr {
   margin-bottom: 1em;
 }
 
-/* unique to writing page */
+
+p {
+  margin: 1rem 1.15rem .5rem 1.15rem;
+  font-size: 1.25em;
+}
+
+ul {
+  margin-left: 1.15rem;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(243, 95, 169);
+}
+a:hover {
+  color: pink;
+}
+
+
+.inline_links {
+  display: flex;
+  margin-left: 1.15rem;
+  list-style: none;
+  font-size: 1.25em;
+  margin-bottom: 2rem;
+}
+.inline_links li {
+  margin-right: .8em; /* put space between the inline links */
+}
+
+
 .writing_links {
   margin-left: 2em;
   list-style: none;
@@ -78,10 +113,12 @@ hr {
 .writing_links li {
   margin-bottom: .35em;
 }
-.writing_links a {
-  text-decoration: none;
+
+
+strike {
   color: rgb(243, 95, 169);
+  text-decoration-thickness: .5rem;
 }
-.writing_links a:hover {
-  color: pink;
+#strikethrough_text {
+  color: black
 }
