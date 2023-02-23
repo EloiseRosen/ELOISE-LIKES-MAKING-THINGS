@@ -122,3 +122,7 @@ strike {
 #strikethrough_text {
   color: black
 }
+
+#active a {
+  color:pink;
+}
