@@ -126,3 +126,19 @@ strike {
 #active a {
   color:pink;
 }
+
+img {
+  max-width: 100%;
+  max-height: 40rem;
+  margin-left: 1rem;
+}
+
+.art_caption {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.art_material_and_size {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: rgb(189, 187, 187);
+}
