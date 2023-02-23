@@ -19,7 +19,7 @@ header {
   align-items: center; /* center items horizontally */
   justify-content: center; /* center items vertically */
   height: 15rem;
-  background-image: url('others_MJ_background.png');
+  background-image: url('others-mj-background.png');
   color: black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@ hr {
   height: .15rem;
   background-color: black;
 }
-.bottom_hr {
+.bottom-hr {
   margin-bottom: 1em;
 }
 
@@ -93,24 +93,24 @@ a:hover {
 }
 
 
-.inline_links {
+.inline-links {
   display: flex;
   margin-left: 1.15rem;
   list-style: none;
   font-size: 1.25em;
   margin-bottom: 2rem;
 }
-.inline_links li {
-  margin-right: .8em; /* put space between the inline links */
+.inline-links li {
+  margin-right: .8em;
 }
 
 
-.writing_links {
+.writing-links {
   margin-left: 2em;
   list-style: none;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
-.writing_links li {
+.writing-links li {
   margin-bottom: .35em;
 }
 
@@ -119,12 +119,18 @@ strike {
   color: rgb(243, 95, 169);
   text-decoration-thickness: .5rem;
 }
-#strikethrough_text {
+#strikethrough-text {
   color: black
 }
 
-#active a {
+#is-active a {
   color:pink;
+}
+
+.link-to-top {
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+  text-align: right;
 }
 
 img {
@@ -133,11 +139,11 @@ img {
   margin-left: 1rem;
 }
 
-.art_caption {
+.art-caption {
   margin-top: 0;
   margin-bottom: 0;
 }
-.art_material_and_size {
+.art-material-and-size {
   margin-top: 0;
   margin-bottom: 2rem;
   color: rgb(189, 187, 187);

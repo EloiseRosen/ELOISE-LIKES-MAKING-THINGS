@@ -13,7 +13,7 @@ body {
   align-items: center; /* center items horizontally */
   justify-content: center; /* center items vertically */
   height: 100vh; /* set body height to be the viewport height for text centering */
-  background-image: url('index_MJ_background.png');
+  background-image: url('index-mj-background.png');
   color: black;
   background-size: cover;
   background-repeat: no-repeat;
