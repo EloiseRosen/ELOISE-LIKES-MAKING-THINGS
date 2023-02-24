@@ -19,7 +19,7 @@ header {
   align-items: center; /* center items horizontally */
   justify-content: center; /* center items vertically */
   height: 15rem;
-  background-image: url('others-mj-background.png');
+  background-image: url('../images/backgrounds/others-mj-background.png');
   color: black;
   background-size: cover;
   background-repeat: no-repeat;
