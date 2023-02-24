@@ -154,8 +154,9 @@ img {
 }
 
 .line-between-art {
-  background-color: rgb(225, 224, 224);
+  background-color: rgb(180, 180, 180);
   height: .1rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
