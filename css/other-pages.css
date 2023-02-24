@@ -141,7 +141,7 @@ img {
 }
 .art-material-and-size {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   color: rgb(189, 187, 187);
 }
 
@@ -151,4 +151,37 @@ img {
   font-weight: normal;
   position: absolute;
   right: 0;
+}
+
+.line-between-art {
+  background-color: rgb(225, 224, 224);
+  height: .1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.art-example {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.art-example img {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  max-width: 300px;
+}
+
+.art-text-container {
+  display: flex;
+  flex-direction: column;
+  word-break: break-word;
+  width: 50%;
+  max-width: 600px;
+}
+
+.art-text-container p {
+  margin: 0;
 }
