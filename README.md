@@ -1,1 +1,1 @@
-# eloiselikesmakingthings
+# ELOISE-LIKES-MAKING-THINGS
