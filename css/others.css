@@ -64,8 +64,8 @@ main {
 h2 {
   font-family: 'Bungee', sans-serif;
   font-size: 2em;
-  max-width: 80%;
   margin-left: 2rem;
+  position: relative;
 }
 hr {
   border: none;
@@ -130,12 +130,6 @@ strike {
   color:pink;
 }
 
-.link-to-top {
-  font-family: Arial, sans-serif;
-  font-size: 1.25rem;
-  text-align: right;
-}
-
 img {
   max-width: 805px;
   max-height: 40rem;
@@ -150,4 +144,12 @@ img {
   margin-top: 0;
   margin-bottom: 2rem;
   color: rgb(189, 187, 187);
+}
+
+.link-to-top {
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
 }
