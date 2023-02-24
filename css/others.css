@@ -131,9 +131,8 @@ strike {
 }
 
 img {
-  max-width: 805px;
-  max-height: 40rem;
-  margin-left: 2.3rem;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .art-caption {
