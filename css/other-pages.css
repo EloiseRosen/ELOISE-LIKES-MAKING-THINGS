@@ -11,7 +11,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
 /* header-related things */
 header {
   display: flex;
@@ -135,6 +134,8 @@ img {
   max-height: 300px;
 }
 
+
+/* art-page-specific things */
 .art-caption {
   margin-top: 0;
   margin-bottom: 0;
@@ -144,7 +145,6 @@ img {
   margin-bottom: 0;
   color: rgb(189, 187, 187);
 }
-
 .link-to-top {
   font-family: Arial, sans-serif;
   font-size: 1.25rem;
@@ -152,31 +152,23 @@ img {
   position: absolute;
   right: 0;
 }
-
 .line-between-art {
   background-color: rgb(180, 180, 180);
   height: .1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
-
-
-
 .art-example {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   margin-left: 2.1rem;
 }
-
 .art-example img {
   flex: 0 0 auto;
   margin-right: 20px;
   max-width: 300px;
 }
-
-
 .art-text-container {
   display: flex;
   flex-direction: column;
@@ -184,63 +176,53 @@ img {
   width: 50%;
   max-width: 600px;
 }
-
 .art-text-container p {
   margin: 0;
 }
 
-
+/* about-page-specific things */
 section.about-section {
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
 .about-image-container {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .about-image-container img {
   margin: 10px;
   max-width: 100%;
   height: auto;
 }
-
 .about-text-container {
   flex: 1;
   margin: 20px;
 }
-
 @media screen and (max-width: 768px) {
   section.about-section {
     flex-direction: column;
     align-items: flex-start;
-  }
-  
+  } 
   .about-image-container {
     margin-bottom: 20px;
   }
-  
   .about-text-container {
     margin: 0;
   }
 }
-
 #about-text {
-  font-size: 1.3rem;
-
+  font-size: 1.4rem;
 }
-
 
 .icon-container {
   display: flex;
   justify-content: center;
   margin-right: 55px;
 }
-
 .icon {
   margin-top: 1rem;
   margin-left: .2rem;
@@ -258,4 +240,9 @@ section.about-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.image-caption {
+  font-size: 1rem;
+  margin: 0;
+  color: rgb(129, 128, 128);
 }
