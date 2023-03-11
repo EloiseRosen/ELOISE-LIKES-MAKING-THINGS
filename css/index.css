@@ -1,3 +1,7 @@
+:root {
+  --light-pink: rgb(254, 189, 200);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -46,5 +50,5 @@ nav {
   color: black;
 }
 .menu a:hover {
-  color: pink;
+  color:  var(--light-pink);
 }

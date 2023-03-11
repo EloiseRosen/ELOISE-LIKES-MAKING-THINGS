@@ -1,3 +1,11 @@
+:root {
+  --dark-pink: rgb(243, 95, 169);
+  --light-pink: rgb(254, 189, 200);
+  --dark-gray: rgb(129, 128, 128);
+  --med-gray: rgb(175, 174, 174);
+  --light-gray: rgb(189, 187, 187);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,7 +57,7 @@ nav {
   color: black;
 }
 .menu a:hover {
-  color: pink;
+  color: var(--light-pink);
 }
 
 
@@ -87,10 +95,10 @@ li {
 
 a {
   text-decoration: none;
-  color: rgb(243, 95, 169);
+  color: var(--dark-pink);
 }
 a:hover {
-  color: pink;
+  color: var(--light-pink);
 }
 
 
@@ -118,7 +126,7 @@ a:hover {
 
 
 strike {
-  color: rgb(243, 95, 169);
+  color: var(--dark-pink);
   text-decoration-thickness: .5rem;
 }
 #strikethrough-text {
@@ -126,7 +134,7 @@ strike {
 }
 
 #is-active a {
-  color:pink;
+  color: var(--light-pink);;
 }
 
 img {
@@ -143,7 +151,7 @@ img {
 .art-material-and-size {
   margin-top: 0;
   margin-bottom: 0;
-  color: rgb(189, 187, 187);
+  color: var(--light-gray);
 }
 .link-to-top {
   font-family: Arial, sans-serif;
@@ -153,7 +161,7 @@ img {
   right: 0;
 }
 .line-between-art {
-  background-color: rgb(180, 180, 180);
+  background-color: var(--med-gray);
   height: .1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -244,5 +252,5 @@ section.about-section {
 .image-caption {
   font-size: 1rem;
   margin: 0;
-  color: rgb(129, 128, 128);
+  color: var(--dark-gray);
 }
