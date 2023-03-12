@@ -188,6 +188,12 @@ img {
   margin: 0;
 }
 
+
+span.writing-post-title {
+  color: var(--light-pink);
+}
+
+
 /* about-page-specific things */
 section.about-section {
   margin-top: 1.5rem;
