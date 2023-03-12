@@ -72,6 +72,7 @@ h2 {
   font-family: 'Bungee', sans-serif;
   font-size: 2em;
   margin-left: 2rem;
+  margin-right: 2rem;
   position: relative;
 }
 hr {
@@ -189,16 +190,20 @@ img {
 }
 
 
+/* writing-pages-specific things */
 span.writing-post-title {
   color: var(--dark-pink);
 }
-
-.back-link {
+ul.writing-bullets {
+  font-size: 1.25em;
+  margin-left: 5rem;
+  margin-right: 2.3rem;
+}
+.writing-back-link {
   display: flex;
   font-size: 1.25em;
   margin-left: 2.4rem;
   margin-top: 1.6rem;
-  margin-bottom: 2rem;
 }
 
 
