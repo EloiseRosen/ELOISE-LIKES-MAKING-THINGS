@@ -190,7 +190,15 @@ img {
 
 
 span.writing-post-title {
-  color: var(--light-pink);
+  color: var(--dark-pink);
+}
+
+.back-link {
+  display: flex;
+  font-size: 1.25em;
+  margin-left: 2.4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 2rem;
 }
 
 
