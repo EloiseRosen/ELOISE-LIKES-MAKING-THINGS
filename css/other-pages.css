@@ -213,6 +213,7 @@ section.about-section {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 5rem;
 }
 .about-image-container {
   flex: 1;
@@ -272,4 +273,53 @@ section.about-section {
   font-size: 1rem;
   margin: 0;
   color: var(--dark-gray);
+}
+
+
+/* footer */
+.footer-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  /*margin-bottom: 5rem;*/
+  /*padding-bottom: 1000px;*/
+}
+.footer-image {
+  margin: 1rem .8rem 2rem .8rem;
+  width: 80px;
+}
+.footer-icon {
+  margin: 1.4rem .2rem 2rem .2rem;
+  width: 20px;
+}
+#footer-github-icon {
+  margin-top: 1.3rem;
+  /*margin-bottom: 1000px;*/
+  width: 22px;
+}
+
+.quote-section {
+  margin-bottom: 7rem;
+}
+
+#quote-text {
+  border: 3px solid var(--light-pink);
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 2.15rem;
+}
+
+#quote-rat {
+  float: right;
+  display: block;
+  height:200px;
+  margin-right: 5px;
+}
+
+#quote-author {
+  text-align: right;
+  display: block;
+  clear: right;
+  color: var(--dark-gray);
+  margin-right: 0;
 }
