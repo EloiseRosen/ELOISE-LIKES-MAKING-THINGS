@@ -207,6 +207,33 @@ ul.writing-bullets {
 }
 
 
+/* icons (become pink on hover) */
+.linkedin-icon {
+  background-image: url("../images/social-icons/linkedin.png");
+  background-size: contain;
+}
+.linkedin-icon:hover {
+  background-image: url("../images/social-icons/linkedin-pink.png");
+  background-size: contain;
+}
+.github-icon {
+  background-image: url("../images/social-icons/github.png");
+  background-size: contain;
+}
+.github-icon:hover {
+  background-image: url("../images/social-icons/github-pink.png");
+  background-size: contain;
+}
+.email-icon {
+  background-image: url("../images/social-icons/email.png");
+  background-size: contain;
+}
+.email-icon:hover {
+  background-image: url("../images/social-icons/email-pink.png");
+  background-size: contain;
+}
+
+
 /* about-page-specific things */
 section.about-section {
   margin-top: 1.5rem;
@@ -256,6 +283,7 @@ section.about-section {
   margin-left: .2rem;
   margin-right: .2rem;
   width: 35px;
+  height: 35px;
 }
 
 .about-text-container {
@@ -272,6 +300,31 @@ section.about-section {
 }
 
 
+/* quote section */
+.quote-section {
+  margin-bottom: 7rem;
+}
+#quote-text {
+  border: 3px solid var(--light-pink);
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 2.15rem;
+}
+#quote-rat {
+  float: right;
+  display: block;
+  height:200px;
+  margin-right: 5px;
+}
+#quote-author {
+  text-align: right;
+  display: block;
+  clear: right;
+  color: var(--dark-gray);
+  margin-right: 0;
+}
+
+
 /* footer */
 .footer-icon-container {
   display: flex;
@@ -280,37 +333,12 @@ section.about-section {
   /*margin-bottom: 5rem;*/
   /*padding-bottom: 1000px;*/
 }
-.footer-image {
+.footer-cat {
   margin: 1rem .8rem 2rem .8rem;
   width: 80px;
 }
 .footer-icon {
   margin: 1.4rem .2rem 2rem .2rem;
   width: 20px;
-}
-
-.quote-section {
-  margin-bottom: 7rem;
-}
-
-#quote-text {
-  border: 3px solid var(--light-pink);
-  border-radius: 25px;
-  padding: 20px;
-  margin-top: 2.15rem;
-}
-
-#quote-rat {
-  float: right;
-  display: block;
-  height:200px;
-  margin-right: 5px;
-}
-
-#quote-author {
-  text-align: right;
-  display: block;
-  clear: right;
-  color: var(--dark-gray);
-  margin-right: 0;
+  height: 20px;
 }
