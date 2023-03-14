@@ -4,6 +4,7 @@
   --dark-gray: rgb(129, 128, 128);
   --med-gray: rgb(175, 174, 174);
   --light-gray: rgb(189, 187, 187);
+  --extra-light-pink: rgb(255,218,221);
 }
 
 * {
@@ -305,10 +306,11 @@ section.about-section {
   margin-bottom: 7rem;
 }
 #quote-text {
-  border: 3px solid var(--light-pink);
+  border: 3px solid var(--extra-light-pink);
   border-radius: 25px;
   padding: 20px;
   margin-top: 2.15rem;
+  box-shadow: 3px 3px var(--light-gray);;
 }
 #quote-rat {
   float: right;
