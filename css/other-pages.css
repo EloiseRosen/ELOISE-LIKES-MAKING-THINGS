@@ -257,10 +257,6 @@ section.about-section {
   margin-right: .2rem;
   width: 35px;
 }
-#github-icon {
-  margin-top: .8rem;
-  width: 40px;
-}
 
 .about-text-container {
   flex: 1;
@@ -291,11 +287,6 @@ section.about-section {
 .footer-icon {
   margin: 1.4rem .2rem 2rem .2rem;
   width: 20px;
-}
-#footer-github-icon {
-  margin-top: 1.3rem;
-  /*margin-bottom: 1000px;*/
-  width: 22px;
 }
 
 .quote-section {
