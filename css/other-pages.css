@@ -168,6 +168,9 @@ img {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.art-section {
+  margin-bottom: 5rem;
+}
 .art-example {
   display: flex;
   flex-wrap: wrap;
@@ -302,9 +305,6 @@ section.about-section {
 
 
 /* quote section */
-.quote-section {
-  margin-bottom: 7rem;
-}
 #quote-text {
   border: 3px solid var(--extra-light-pink);
   border-radius: 25px;
@@ -331,9 +331,7 @@ section.about-section {
 .footer-icon-container {
   display: flex;
   justify-content: center;
-  margin-top: 6rem;
-  /*margin-bottom: 5rem;*/
-  /*padding-bottom: 1000px;*/
+  margin-top: 7rem;
 }
 .footer-cat {
   margin: 1rem .8rem 2rem .8rem;
