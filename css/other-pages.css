@@ -120,10 +120,11 @@ a:hover {
   margin-left: 2.3rem;
   list-style: none;
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1em;
 }
-.list-of-links li {
-  margin-bottom: .35em;
+.list-of-links.writing-page {
+  line-height: 2.3rem;
 }
 
 

@@ -20,7 +20,8 @@ const QUOTE_AND_AUTHOR = [
   'everywhere—except for one small spot. Just think about how close you are to being dead everywhere!', 'Douglas Hofstadter'],
   ["If you want to build a ship, don't drum up the men to gather wood, divide the work, and give orders. Instead, teach " +
   "them to yearn for the vast and endless sea.", 'Antoine de Saint-Exupery'],
-  ['Nearly everything is really interesting if you go into it deeply enough.', 'Richard Feynman']
+  ['Nearly everything is really interesting if you go into it deeply enough.', 'Richard Feynman'],
+  ["The only style worth having is the one you can't help.", 'Paul Graham']
 ];
 
 // whenever the page loads, randomly set the quote
