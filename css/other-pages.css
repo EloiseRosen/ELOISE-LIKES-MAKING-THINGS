@@ -209,6 +209,13 @@ ul.writing-bullets {
   margin-left: 2.4rem;
   margin-top: 1.6rem;
 }
+.writing-post-image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
 
 
 /* icons (become pink on hover) */

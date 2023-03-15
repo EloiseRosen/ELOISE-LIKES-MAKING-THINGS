@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <title>ELOISE LIKES MAKING THINGS</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+      <link href="../css/other-pages.css" rel="stylesheet">
+      <link rel="shortcut icon" href="../images/favicon.ico">
+   </head>
+
+   <body>
+
+      <header>
+         <h1>ELOISE LIKES MAKING THINGS</h1>
+         <nav>
+            <ul class="menu">
+               <li><a href="../art.html">art</a></li>
+               <li><a href="../dev.html">dev</a></li>
+               <li id="is-active"><a href="../writing.html">writing</a></li>
+               <li><a href="../about.html">about</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <main>
+         <hr>
+         <h2>ELOISE LIKES WRITING: <span class="writing-post-title">SLOANE'S GAP</span></h2>
+         <hr class="bottom-hr">
+         <p>Fun fact: There's an encyclopedia of integer sequences online. If you go to <a href="https://oeis.org/" target="_blank">oeis.org</a> and type in "1,1,2,3,5,8,13", you will get the search result "Fibonacci numbers" and it will tell you some things about them. You can also click to see a graph of them, or (my favorite) to hear the sequence in musical notes.</p>
+         <p>Someone did something really cool with this, which is graph how often each number shows up in the encyclopedia. The result is below, log scale. The graph starts high on the left because numbers like 0, 1, and 2 show up a lot, and then the graph gets lower as we move right because bigger numbers like 8232 show up less. But what's surprising is that there's a weird gap - there's a top band of numbers, and then there's a space, and then there's a bottom band of numbers.  Now why in the heck would there be a space there?</p>
+         <p>Turns out the numbers in the top band are things like prime numbers, squares and cubes, and numbers with lots of factors - humans are interested in these and they come up a lot. The bottom band is everything else. The popular numbers like primes show up so much more frequently than the unpopular numbers that we get a space. This is called Sloane's Gap.</p>
+         <img src="../images/writing-posts/sloanes-gap.jpeg" class="writing-post-image" alt="graph showing Sloane's Gap">
+         <a href="../writing.html" class="writing-back-link">back</a>
+      </main>
+
+      <footer>
+         <div class="footer-icon-container">
+            <img src="../images/footer-doodles/cat-left.jpg" class="footer-cat" alt="drawing of a cat">
+            <a href="https://www.linkedin.com/in/eloise-rosen-62aab483/" class="footer-icon linkedin-icon"></a>
+            <a href="https://github.com/EloiseRosen" class="footer-icon github-icon"></a>
+            <a href="mailto:eloise.rosen@gmail.com" class="footer-icon email-icon"></a>
+            <img src="../images/footer-doodles/cat-right.jpg" class="footer-cat" alt="drawing of a cat">
+         </div>
+      </footer>
+
+   </body>
+
+</html>
