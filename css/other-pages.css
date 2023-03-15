@@ -137,13 +137,10 @@ strike {
 }
 
 #is-active a {
-  color: var(--light-pink);;
+  color: var(--light-pink);
 }
 
-img {
-  max-width: 300px;
-  max-height: 300px;
-}
+
 
 
 /* art-page-specific things */
@@ -224,11 +221,9 @@ ul.writing-bullets {
   margin-bottom: 2rem;
 }
 .writing-inline-image-container img {
-  max-width: 100%;
   margin: 0 10px;
+  max-width: 250px;
 }
-
-
 
 
 /* icons (become pink on hover) */
