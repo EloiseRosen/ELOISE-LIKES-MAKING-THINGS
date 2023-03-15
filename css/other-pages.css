@@ -239,7 +239,7 @@ ul.writing-bullets {
 
 
 /* about-page-specific things */
-section.about-section {
+div.about-content {
   margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
@@ -262,7 +262,7 @@ section.about-section {
   margin: 20px;
 }
 @media screen and (max-width: 768px) {
-  section.about-section {
+  div.about-content {
     flex-direction: column;
     align-items: flex-start;
   } 
