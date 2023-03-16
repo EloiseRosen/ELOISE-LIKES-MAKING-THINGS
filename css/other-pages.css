@@ -224,6 +224,14 @@ ul.writing-bullets {
   margin: 0 10px;
   max-width: 250px;
 }
+.video-caption {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: -1rem;
+  margin-bottom: 3rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
 
 
 /* icons (become pink on hover) */
