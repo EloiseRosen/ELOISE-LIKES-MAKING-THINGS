@@ -127,13 +127,13 @@ a:hover {
   line-height: 2.3rem;
 }
 
-
-strike {
+#strikethrough-line {
+  text-decoration: line-through;
   color: var(--dark-pink);
   text-decoration-thickness: .5rem;
 }
 #strikethrough-text {
-  color: black
+  color: black;
 }
 
 #is-active a {
@@ -326,7 +326,7 @@ div.about-content {
   border-radius: 25px;
   padding: 20px;
   margin-top: 2.15rem;
-  box-shadow: 3px 3px var(--light-gray);;
+  box-shadow: 3px 3px var(--light-gray);
 }
 #quote-rat {
   float: right;
