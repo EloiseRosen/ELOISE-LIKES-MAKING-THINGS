@@ -215,13 +215,16 @@ ul.writing-bullets {
   margin-bottom: 2rem;
 }
 .writing-inline-image-container {
-  display: flex; /* Use flexbox to center the images horizontally */
-  justify-content: center; /* Center the images horizontally */
+  display: flex;
+  justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 .writing-inline-image-container img {
   margin: 0 10px;
+  max-width: 350px;
+}
+.writing-inline-image-container.smaller-images img {
   max-width: 250px;
 }
 .video-caption {
