@@ -1,10 +1,10 @@
 :root {
   --dark-pink: rgb(243, 95, 169);
-  --light-pink: rgb(254, 189, 200);
+  --med-pink: rgb(254, 189, 200);
+  --light-pink: rgb(255,218,221);
   --dark-gray: rgb(129, 128, 128);
   --med-gray: rgb(175, 174, 174);
   --light-gray: rgb(189, 187, 187);
-  --extra-light-pink: rgb(255,218,221);
 }
 
 * {
@@ -58,7 +58,7 @@ nav {
   color: black;
 }
 .menu a:hover {
-  color: var(--light-pink);
+  color: var(--med-pink);
 }
 
 
@@ -100,7 +100,7 @@ a {
   color: var(--dark-pink);
 }
 a:hover {
-  color: var(--light-pink);
+  color: var(--med-pink);
 }
 
 
@@ -137,22 +137,11 @@ strike {
 }
 
 #is-active a {
-  color: var(--light-pink);
+  color: var(--med-pink);
 }
-
-
 
 
 /* art-page-specific things */
-.art-caption {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.art-material-and-size {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: var(--light-gray);
-}
 .link-to-top {
   font-family: Arial, sans-serif;
   font-size: 1.25rem;
@@ -169,26 +158,27 @@ strike {
 .art-section {
   margin-bottom: 5rem;
 }
+.art-caption {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.art-material-and-size {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--light-gray);
+}
 .art-example {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   margin-left: 2.1rem;
 }
 .art-example img {
-  flex: 0 0 auto;
-  margin-right: 20px;
-  max-width: 300px;
+  margin-right: 10px;
+  max-width: 200px;
 }
 .art-text-container {
-  display: flex;
-  flex-direction: column;
+  flex: 1;
   word-break: break-word;
-  width: 50%;
-  max-width: 600px;
-}
-.art-text-container p {
-  margin: 0;
 }
 
 
@@ -332,7 +322,7 @@ div.about-content {
 
 /* quote section */
 #quote-text {
-  border: 3px solid var(--extra-light-pink);
+  border: 3px solid var(--light-pink);
   border-radius: 25px;
   padding: 20px;
   margin-top: 2.15rem;
