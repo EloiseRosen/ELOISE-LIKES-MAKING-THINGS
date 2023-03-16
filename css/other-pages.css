@@ -358,3 +358,10 @@ div.about-content {
   width: 20px;
   height: 20px;
 }
+/* when content is too short to fill viewport, footer should still be near bottom of viewport*/
+.flex-wrapper-footer-position {
+  display: flex;
+  min-height: 72vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
