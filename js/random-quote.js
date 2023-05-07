@@ -9,7 +9,6 @@ const QUOTE_AND_AUTHOR = [
   ['The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and ' +
   'draw and build and play and dance and live as only you can.', 'Neil Gaiman'],
   ["A ship in the harbor is safe, but that's not why ships are built.", 'John Augustus Shedd'],
-  ['Feel the fear and do it anyway.', 'Susan Jeffers'],
   ["If your problem is that there is too much traffic, you are part of the problem. If you join a crowd because you like " +
   "crowds, you add to the crowd. If you withdraw your child from school because of the pupils he goes to school with, you " +
   "remove a pupil that they go to school with. If you raise your voice to make yourself heard, you add to the noise that " +
