@@ -228,12 +228,12 @@ ul.writing-bullets {
 
 
 /* icons (become pink on hover) */
-.linkedin-icon {
-  background-image: url("../images/social-icons/linkedin.png");
+.home-icon {
+  background-image: url("../images/social-icons/home.png");
   background-size: contain;
 }
-.linkedin-icon:hover {
-  background-image: url("../images/social-icons/linkedin-pink.png");
+.home-icon:hover {
+  background-image: url("../images/social-icons/home-pink.png");
   background-size: contain;
 }
 .github-icon {
@@ -242,6 +242,14 @@ ul.writing-bullets {
 }
 .github-icon:hover {
   background-image: url("../images/social-icons/github-pink.png");
+  background-size: contain;
+}
+.linkedin-icon {
+  background-image: url("../images/social-icons/linkedin.png");
+  background-size: contain;
+}
+.linkedin-icon:hover {
+  background-image: url("../images/social-icons/linkedin-pink.png");
   background-size: contain;
 }
 .email-icon {
