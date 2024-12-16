@@ -95,6 +95,11 @@ li {
   text-decoration: none;
 }
 
+.writing-post-ol li {
+  margin: 1rem 2.3rem .5rem 2.3rem;
+  font-size: 1.25em;
+}
+
 a {
   text-decoration: none;
   color: var(--dark-pink);
