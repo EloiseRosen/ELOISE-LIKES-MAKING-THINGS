@@ -95,6 +95,10 @@ li {
   text-decoration: none;
 }
 
+ol.writing-post-ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
 .writing-post-ol li {
   margin: 1rem 2.3rem .5rem 2.3rem;
   font-size: 1.25em;
