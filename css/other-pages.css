@@ -40,6 +40,12 @@ header h1 {
   max-width: 80%;
   text-align: center;
 }
+header h1 a {
+  color: black;
+}
+header h1 a:hover {
+  color: black;
+}
 nav {
   display: flex;
   justify-content: center;
