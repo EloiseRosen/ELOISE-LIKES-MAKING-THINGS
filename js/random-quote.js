@@ -2,7 +2,6 @@ const QUOTE_AND_AUTHOR = [
   ['Amateurs talk strategy. Professionals talk logistics.', 'General Omar Bradley'],
   ["It's hard to do a really good job on anything you don't think about in the shower.", 'Paul Graham'],
   ['I learned very early the difference between knowing the name of something and knowing something.', 'Richard Feynman'],
-  ['And yet it moves.', 'Galileo'],
   ['A million people can call the mountains a fiction, yet it need not trouble you as you stand atop them.', 'Randall Munroe'],
   ['Truth comes as a conqueror only to those who have lost the art of receiving it as a friend.', 'Rabindranath Tagore'],
   ['Remember that you are always making up the future as you go.', 'Randall Munroe'],
