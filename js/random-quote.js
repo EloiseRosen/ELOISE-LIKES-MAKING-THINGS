@@ -17,8 +17,6 @@ const QUOTE_AND_AUTHOR = [
   ['Consider the fact that you are now experiencing death, in a curious way. Not being in Paris right now, you know what ' + 
   'it is like to be dead in Paris. No lights, no sounds—nothing. The same goes for Timbuktu. In fact, you are dead ' +
   'everywhere—except for one small spot. Just think about how close you are to being dead everywhere!', 'Douglas Hofstadter'],
-  ["If you want to build a ship, don't drum up the men to gather wood, divide the work, and give orders. Instead, teach " +
-  "them to yearn for the vast and endless sea.", 'Antoine de Saint-Exupery'],
   ['Nearly everything is really interesting if you go into it deeply enough.', 'Richard Feynman'],
   ["The only style worth having is the one you can't help.", 'Paul Graham']
 ];
