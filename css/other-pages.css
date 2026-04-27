@@ -206,11 +206,15 @@ ul.writing-bullets {
   margin-left: 5rem;
   margin-right: 2.3rem;
 }
-.writing-back-link {
+.writing-post-nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.6rem 2.4rem 0;
+}
+.writing-back-link,
+.writing-next-link {
   font-size: 1.25em;
-  margin-left: 2.4rem;
-  margin-top: 1.6rem;
 }
 .writing-post-single-image {
   max-width: 100%;
