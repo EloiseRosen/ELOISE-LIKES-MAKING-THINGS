@@ -1,2 +1,2 @@
-# ELOISE LIKES MAKING THINGS
+# ELOÏSE LIKES MAKING THINGS
 personal website: [ELOISE-LIKES-MAKING-THINGS.com](https://eloise-likes-making-things.com/)
