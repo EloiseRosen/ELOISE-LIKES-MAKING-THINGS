@@ -52,3 +52,35 @@ nav {
 .menu a:hover {
   color:  var(--light-pink);
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 1.15;
+    max-width: calc(100vw - 2rem);
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: .5rem;
+    font-size: 1.25rem;
+  }
+
+  .menu li {
+    margin: 0 .75rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
