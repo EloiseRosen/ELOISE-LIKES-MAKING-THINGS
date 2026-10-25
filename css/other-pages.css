@@ -238,6 +238,80 @@ a:hover {
   word-break: break-word;
 }
 
+@media screen and (max-width: 768px) {
+  .art-section h2 {
+    margin-top: .35rem;
+    margin-bottom: .35rem;
+  }
+
+  .art-section .link-to-top {
+    display: inline-block;
+    margin-left: .75rem;
+    position: static;
+    white-space: nowrap;
+  }
+
+  .art-example {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: .75rem;
+    width: calc(100% - 2rem);
+    max-width: 40.75rem;
+    margin: 0 auto;
+  }
+
+  .art-example > a {
+    display: block;
+    min-width: 0;
+  }
+
+  .art-example > a:only-of-type {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, 20rem);
+  }
+
+  .art-example img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin: 0;
+  }
+
+  .art-example video {
+    grid-column: 1 / -1;
+    justify-self: center;
+    display: block;
+    width: min(100%, 30rem);
+    height: auto;
+  }
+
+  .art-text-container {
+    grid-column: 1 / -1;
+    min-width: 0;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .art-caption,
+  .art-material-and-size {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .art-caption {
+    margin-top: .25rem;
+    line-height: 1.4;
+  }
+
+  .line-between-art {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
 
 /* writing-pages-specific things */
 span.writing-post-title {
