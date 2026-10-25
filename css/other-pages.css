@@ -113,6 +113,8 @@ h2 {
 @media screen and (max-width: 768px) {
   h2 {
     line-height: 1.18;
+    margin-top: .35rem;
+    margin-bottom: .35rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -239,11 +241,6 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .art-section h2 {
-    margin-top: .35rem;
-    margin-bottom: .35rem;
-  }
-
   .art-section .link-to-top {
     display: inline-block;
     margin-left: .75rem;
@@ -352,6 +349,33 @@ ul.writing-bullets {
 .writing-inline-image-container.smaller-images img {
   max-width: 250px;
 }
+
+@media screen and (max-width: 768px) {
+  .writing-inline-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: .75rem;
+    width: calc(100% - 2rem);
+    max-width: 40.75rem;
+    margin: 2rem auto;
+  }
+
+  .writing-inline-image-container > a {
+    display: block;
+    min-width: 0;
+  }
+
+  .writing-inline-image-container img,
+  .writing-inline-image-container.smaller-images img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin: 0;
+  }
+}
+
 .media-caption {
   font-size: 1rem;
   margin: 0;
